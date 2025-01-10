@@ -492,6 +492,11 @@
 
 
 
+# while True:
+#     print("if you say anything to me, i will tell it to you again!")
+#     fun = input("tell me some thing: ")
+#     print(fun)
+
 
 
 
