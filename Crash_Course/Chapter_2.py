@@ -36,7 +36,7 @@
 # z = "\t\t\t zareef \t\t\t\t"
 # print(z.lstrip().rstrip())
 
-
+#pg 29
 #exercise 2-8
 # print(2+6)
 # print(12-4)
@@ -47,6 +47,7 @@
 # m = 10
 # print(f"My favourite number is {m}")
 
+#pg 30
 #exercise 2-10
                 # Age checker #
 # m = int(input("Enter your birth year: "))
