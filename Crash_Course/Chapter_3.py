@@ -18,6 +18,26 @@
 
 #pg 42
 #exercise 3-4
+# guest = ['Kafi', 'Ayan', 'Intisar']
+# for i in guest:
+#     print(f"Dear {i}, you're requested to join my dinner party")
+#
+
+#exercise 3-5
+# guest = ['Kafi', 'Ayan', 'Intisar']
+# print(guest[2], ", just I have heard that you can't join my dinner party")
+# guest.remove('Intisar')
+# guest.append('Zareef')
+# print('\n')
+# for i in guest:
+#     print(f"Dear {i}, you're requested to join my dinner party")
+
+
+
+
+
+
+
 
 
 
