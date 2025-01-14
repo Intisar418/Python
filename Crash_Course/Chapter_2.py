@@ -37,6 +37,38 @@
 # print(z.lstrip().rstrip())
 
 
+#exercise 2-8
+# print(2+6)
+# print(12-4)
+# print(4*2)
+# print(64/8)
+
+#exercise 2-9
+# m = 10
+# print(f"My favourite number is {m}")
+
+#exercise 2-10
+                # Age checker #
+# m = int(input("Enter your birth year: "))
+# i = int(input("Enter the current year: "))
+# if i<m :
+#     print("Please enter the year correctly")
+# else:
+#     print(f"Your age is {i-m}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
