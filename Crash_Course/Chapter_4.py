@@ -53,9 +53,37 @@ for i in c:
 print(z)
 
 #pg 65
-#exercise 4-10
+# #exercise 4-10
+cars = ['Tesla', 'Ford', 'BMW', 'Audi', 'Mercedes', 'Bentley', 'Aston Martin', 'Cadillac', 'Rolls-Royce']
+print("The first three items in my list are:")
+for i in cars[0:3]:
+    print(f"{i}")
+print("Three items from the middle of my list are:")
+for z in cars[3:6]:
+    print(z)
+print("The last three items in my list are:")
+for m in cars[6:]:
+    print(m)
 
+# #exercise 4-11
+pizza = ["BBQ Chicken Pizza", "Four Cheese Pizza", "Hawaiian Pizza"]
+friend_pizzas = pizza[:]
+pizza.append('Cheese Pizza')
+friend_pizzas.append('Italian pizza')
+print("My favourite pizzas are:")
+for i in pizza:
+    print(f"\t {i}")
+print("My friend's favourite pizzas are:")
+for m in pizza:
+    print(f"\t {m}")
 
-
+#pg 68
+# #exercise 4-13
+t = ('Burger', 'Pizza', 'Shawarma', 'Sandwich', 'Chicken fry')
+for z in t:
+    print(z)
+t = ('Chicken nuggets', 'Pizza', 'Shawarma', 'Sandwich', 'Mozzarella Sticks')
+for m in t:
+    print(m)
 
 
