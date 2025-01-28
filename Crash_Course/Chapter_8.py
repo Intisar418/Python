@@ -34,3 +34,13 @@ def make_shirt(size, message):
     print(f"The size of the shirt is {size} and the message on it is {message}")
 make_shirt(size='L', message='print("Hello World!")')
 
+#exercise 8-4
+def make_shirt(size, message):
+    print(f"The size of the shirt is {size} and the message on it is {message}")
+make_shirt('XL', 'I love python')
+
+#exerise 8-5
+def describe_city(x, y):
+    print(f"{x} is thousand times better than {y}")
+describe_city('Barcelona', 'Madrid')
+
