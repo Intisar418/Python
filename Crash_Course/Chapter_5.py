@@ -54,7 +54,7 @@ if 'Banana' in favourite_fruits:
 if 'Apple' in favourite_fruits:
     print("You are a Newton!")
 #pg-89
-#exercise 5-8
+#exercise 5-8 & 5-9
 hello_users = ['admin', 'Zareef', 'Intisar', 'Ovy', 'Ocean']
 for i in hello_users:
     if i == 'Ovy':
@@ -64,6 +64,20 @@ for i in hello_users:
     else:
         print(f"Hello {i}, thank you for logging again")
 
-#exercise 5-9
+hello_users.pop()
+hello_users.pop()
+hello_users.pop()
+hello_users.pop()
+hello_users.pop()
+if not hello_users:
+    print("We need to find some users!")
+
+#exercise 5-10
+current_users = ['Zareef', 'Intisar', 'Ayan', 'Kafi', 'Tawfiq']
+new_users = ['Xenon', 'Radif', 'Zuhana','Isam']
+
+
+
+
 
 
