@@ -27,22 +27,22 @@
 # def animal(x, y):
 #     print(f"I have a {x} \nHis name is {y}")
 # animal(x="Dog",y="Hasina")
-#
-# #pg 137
-# #exercise 8-3
-# def make_shirt(size, message):
-#     print(f"The size of the shirt is {size} and the message on it is {message}")
-# make_shirt(size='L', message='print("Hello World!")')
-#
-# #exercise 8-4
-# def make_shirt(size, message):
-#     print(f"The size of the shirt is {size} and the message on it is {message}")
-# make_shirt('XL', 'I love python')
-#
-# #exerise 8-5
-# def describe_city(x, y="Bangladesh"):
-#     print(f"{x} is in {y}")
-# describe_city('Dhaka')
-# describe_city('Sylhet')
-# describe_city('Japan', 'Tokyo')
+
+#pg 137
+#exercise 8-3
+def make_shirt(size, message):
+    print(f"The size of the shirt is {size} and the message on it is {message}")
+make_shirt(size='L', message='print("Hello World!")')
+
+#exercise 8-4
+def make_shirt(size, message):
+    print(f"The size of the shirt is {size} and the message on it is {message}")
+make_shirt('XL', 'I love python')
+
+#exerise 8-5
+def describe_city(x, y="Bangladesh"):
+    print(f"{x} is in {y}")
+describe_city('Dhaka')
+describe_city('Sylhet')
+describe_city('Japan', 'Tokyo')
 
