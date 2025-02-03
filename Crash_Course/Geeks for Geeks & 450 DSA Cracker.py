@@ -1,5 +1,5 @@
-                                         #### Array Reverse ####
-
+                                    #### Array ####
+            #### Array Reverse ####
 def reverse(arr, right, left):
     while left < right:
         temp = arr[left]
@@ -13,3 +13,12 @@ if __name__ == '__main__':
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     reverse(arr, right=len(arr)-1, left=0)
     print(arr)
+
+        #### Min and Max in Array ####
+def array(max, min):
+    print(f"The minimum value of this list is {min}, and thw maximum value is {max}")
+
+if __name__ == '__main__':
+    bye = [1, 5, 90, 700, 10, 7, 30]
+    array(max=max(bye), min=min(bye))
+
