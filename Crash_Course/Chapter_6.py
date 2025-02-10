@@ -34,4 +34,8 @@ for river, country in rivers.items():
 
 
 
+    print("this is all for today")
+
+
+
 
