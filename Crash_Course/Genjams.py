@@ -29,12 +29,8 @@ else:
     else:
         print(f"{num} is not a prime number.")
 
-
-
 i = int(input("Enter a number: "))
 print(i/(i*i**i))
 
-m = input("Enter a number: ")
-for i in range(1, m+1):
-    i/(i*i)
-print(i)
+
+

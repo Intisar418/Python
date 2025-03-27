@@ -29,20 +29,61 @@
 # animal(x="Dog",y="Hasina")
 
 #pg 137
+
 #exercise 8-3
-def make_shirt(size, message):
-    print(f"The size of the shirt is {size} and the message on it is {message}")
-make_shirt(size='L', message='print("Hello World!")')
+# def make_shirt(size, message):
+#     print(f"The size of the shirt is {size} and the message on it is {message}")
+# make_shirt(size='L', message='print("Hello World!")')
+#
+# #exercise 8-4
+# def make_shirt(size, message):
+#     print(f"The size of the shirt is {size} and the message on it is {message}")
+# make_shirt('XL', 'I love python')
+#
+# #exerise 8-5
+# def describe_city(x, y="Bangladesh"):
+#     print(f"{x} is in {y}")
+# describe_city('Dhaka')
+# describe_city('Sylhet')
+# describe_city('Japan', 'Tokyo')
 
-#exercise 8-4
-def make_shirt(size, message):
-    print(f"The size of the shirt is {size} and the message on it is {message}")
-make_shirt('XL', 'I love python')
 
-#exerise 8-5
-def describe_city(x, y="Bangladesh"):
-    print(f"{x} is in {y}")
-describe_city('Dhaka')
-describe_city('Sylhet')
-describe_city('Japan', 'Tokyo')
+                    ##### Returning a Simple Value #####
+
+# def returning_value(first_name, last_name):
+#     full_name = f"{first_name} {last_name}"
+#     return full_name.title()
+#
+# if __name__ == '__main__':
+#     student = returning_value('zareef', 'intisar')
+#     print(student)
+
+                ##### Making an Argument Optional #####
+
+# def my_name(first, last, middle=""):
+#     if middle:
+#         full_name = f"{first} {middle} {last}"
+#     else:
+#         full_name = f"{first} {last}"
+#     return full_name.title()
+#
+# if __name__ == '__main__':
+#     student = my_name('zareef', 'xenon', 'intisar')
+#     print(student)
+#     student = my_name('zareef', 'intisar')
+#     print(student)
+
+            ##### Returning a Dictionary #####
+
+def return_dictionary(first_name, last_name):
+    dct = {'first': first_name, 'last':last_name}
+    return dct
+
+if __name__ == '__main__':
+    player = return_dictionary('Lionel', 'Messi')
+    print(player)
+
+
+
+
 

@@ -53,18 +53,4 @@
 # for i in lst:
 #     print(i)
 
-# #exercise 6-8
-# lst = [
-#             pet1 = {'Animal type': 'Bird',
-#                         'Name': 'Frost',
-#                         'Color': 'Blue & White',
-#                         'Hobby': 'Singing'}
-#             pet2 = {'Animal type': 'Dog',
-#                     'Name': 'Hasina',
-#                     'Color': 'Nigga',
-#                     'Hobby': 'Killing humans'}
-#             pet3 = {'Animal type': 'Cat',
-#                     'Name': 'unknown',
-#                     'Color': 'White',
-#                     'Hobby': 'Eating'}
-# ]
+# #
