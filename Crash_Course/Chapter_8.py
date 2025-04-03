@@ -102,7 +102,26 @@ if __name__ == '__main__':
         if loop == 'no':
             break
 
+            #### Passing a List #####
+
+def greet_user(names):
+    for i in names:
+        print(f"Hello, {i.title()}!")
 
 
+if __name__ == '__main__':
+    nicknames = ['zareef', 'intisar', 'xenon']
+    greet_user(nicknames)
 
+            #### Modifying a list in Function #####
+
+current_designs = ['Phone case', 'Kuromi doll', 'Neko chan']
+completed_design = []
+while current_designs:
+    printing_designs = current_designs.pop()
+    print(f"Printing designs: {printing_designs}")
+    completed_design.append(printing_designs)
+print(f"\nThis designs have been printed: ")
+for i in completed_design:
+    print(i)
 
