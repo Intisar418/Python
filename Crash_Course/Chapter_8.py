@@ -125,3 +125,17 @@ print(f"\nThis designs have been printed: ")
 for i in completed_design:
     print(i)
 
+                ### Arbitrary Number of Arguments #####
+def make_pizza(size, *toppings):
+    print(f"\nMaking a {size}-inch pizza with the following toppings:")
+    for i in toppings:
+        print(f"-{i}")
+
+if __name__ == '__main__':
+    make_pizza(16, 'chicken')
+    make_pizza(12, 'mushrooms', 'green papers', 'extra cheese')
+
+
+
+
+
